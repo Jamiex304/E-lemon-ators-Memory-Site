@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="Style/Main_Style.css" type="text/css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="Mechanics/script.js" type="text/javascript"></script>
+	
+    <script> 	
+	$(document).ready(function(){
+    $("#Informationhead").click(function(){
+    $("#Information").slideToggle("fast");
+    });
+    });
+    </script>
+</head>
+<body>
+
+    <br />
+	<center><img src="Media/GroupLogo1.png" alt="Logo" height="160" width="300"></center>
+	<br />
+	
+	<div class="Informationhead"id="Informationhead"><h3 style="color:white;"><b><i>Information and Our Goal</i></b></h3></div>
+	<div class="Information"id="Information">
+	<h2><i>Welcome to the E-lemon-ators Memory Improver</i></h2>
+	<div class="InfoText"><p><b><i>Better memory will improve your focus, problem solving, and multitasking skills. It will also help to control all kinds of distractions and keep your impulses in check. As little as 5 minutes per day of brain training can yield significant results. Brain training is just like muscle training - the more you train, the better results you get! This game is your perfect memory exerciser it is suitable for kids, students, adults, and seniors!
+    Don't be surprised if you do better on your next IQ test or brain age test. These type of games are a scientifically proven way to boost your brain power and health not only that, they also reduce the risk of memory loss (dementia) with older adults.
+    The game will help students and business professionals alike - whether it's a client's name or a more polished presentation, or studying for an exam. The results will be quickly noticed.</i></b></p>
+	<p><b><i>We the E-lemon-ators want to help you improve you memory with with our game which is designed around the 3 different ways you can retain information, Sight, Sound and Reading each user can set there game up they way the want for the best result</i></b></p>
+	
+	</div>
+	</div>
+
+	<div class="wrapper">
+	<div class="wrapper2">
+        <hr>
+		<div class="level">
+			<h2 style="color:white;"><i>Level: 1</i></h2>
+		</div>
+		<div class="score">
+			<h2 style="color:white;"><i>Score: 0</i></h2>
+		</div>
+		<hr>
+		<ul class="difficulty">
+		<h4 style="color:white;"><i>Choose Your Difficulty</i></h4>
+
+			<li>
+				<input type="radio" class="difOpt" name="difficulty" value="2"><span style="color:white;">Easy</span>
+			</li>
+			<br />
+			<li>
+				<input type="radio" class="difOpt" name="difficulty" value="1" checked><span style="color:white;">Normal</span>
+			</li>
+			<br />
+			<li>
+				<input type="radio" class="difOpt" name="difficulty" value="0.5"><span style="color:white;">Hard</span>
+			</li>
+			<br />
+			<li>
+				<input type="radio" class="difOpt" name="difficulty" value="0.25"><span style="color:white;">Insane</span>
+			</li>
+		</ul>
+		<hr>
+		<br />
+			<center><button class="start"><b><i>START</i></b></button></center>
+		
+	</div>
+	<div class="wrapper3">
+	<h3 style="color:white;"><i>Choose Your Game Preferences</i></h3>
+	<h4 style="color:white;"><i>Do You Want Sound ?</i></h4>
+	<input type="checkbox" value="No" id="sound"><span style="color:white;"><b>Yes</b></span>
+    <h4 style="color:white;"><i>Do You want Text ?</i></h4>
+    <input type="checkbox" value="No" id="text"><span style="color:white;"><b>Yes</b></span>
+	<h4 style="color:white;"><i>Do You want Flashes ?</i></h4>
+    <input type="checkbox" value="No" id="flash"><span style="color:white;"><b>Yes</b></span>
+	</div>
+	
+	<div class="TextBox">
+	<p style="color:White;"><b><i>The Color you need to click will appear here</i></b></p>
+	</div>
+	
+		<div class="back">
+			<div class="pad shape1" data-pad="1">
+				<audio preload="auto" class="sound1">
+					<source src="Media/sounds/mp3/sounds_01.mp3" type="audio/mpeg"/>
+					<source src="Media/sounds/ogg/sounds_01.ogg" type="audio/ogg"/>
+				</audio>
+			</div>
+			<div class="pad shape2" data-pad="2">
+				<audio preload="auto" class="sound2">
+					<source src="Media/sounds/mp3/sounds_02.mp3"  type="audio/mpeg"/>
+					<source src="Media/sounds/ogg/sounds_02.ogg" type="audio/ogg"/>
+				</audio>
+			</div>
+		    <div class="Timer">
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+            <center><p><b><i>Time starts when you click start</i></b></p></center> 
+			</div>
+			
+			<div class="pad shape3" data-pad="3">
+				<audio preload="auto" class="sound3">
+					<source src="Media/sounds/mp3/sounds_03.mp3" type="audio/mpeg"/>
+					<source src="Media/sounds/ogg/sounds_03.ogg" type="audio/ogg"/>
+				</audio>
+			</div>
+			<div class="pad shape4" data-pad="4">
+				<audio preload="auto" class="sound4">
+					<source src="Media/sounds/mp3/sounds_04.mp3" type="audio/mpeg"/>
+					<source src="Media/sounds/ogg/sounds_04.ogg" type="audio/ogg"/>
+				</audio>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

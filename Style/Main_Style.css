@@ -1,0 +1,195 @@
+body {
+background-color: #333;
+}
+
+input[type="radio"] {
+    vertical-align: baseline;
+    padding: 10px;
+    margin: 10px;
+}
+
+li {
+  display: inline-block;
+}
+
+.Informationhead{
+  position: relative;
+  width: 1120px;
+  height:50px;
+  margin: 0 auto;
+  border: 5px groove #8E2B2B;
+  border-radius: 15px;
+  text-align:center;
+  color: black;
+  margin-bottom:2.5px;
+}
+
+.Information{
+  position: relative;
+  width: 1000px;
+  height:260px;
+  margin: 0 auto;
+  display:none;
+  text-align:center;
+  background-image: url("Info4.png");
+  background-size:100%;
+  padding-top:45px;
+  margin-bottom:10px;
+  margin-left:300px:
+}
+
+.InfoText{
+  position: relative;
+  width: 820px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: relative;
+  width: 900px;
+  margin: 0 auto ;
+  border: 5px groove #8E2B2B;
+  border-radius: 15px;
+  padding-left:220px;
+  margin-bottom:2.5px;
+}
+
+
+.wrapper2{
+  position: absolute;
+  width: 165px;
+  height:500px;
+  margin: 0 auto;
+  border: 3.5px groove #8E2B2B;
+  border-radius: 15px;
+  margin-top:10px;
+  padding:5px;
+  margin-left: -18%;
+}
+
+.wrapper3{
+  position: absolute;
+  background-size:100%;
+  width: 200px;
+  height:320px;
+  margin-left: 60%;
+  margin-top:10px;
+  border: 3.5px groove #8E2B2B;
+  border-radius: 15px;
+  text-align:center;
+}
+
+
+.back {
+  position: relative;
+  width: 648px;
+  height: 648px;
+  z-index: 0;
+  background-color: #000;
+  border:3.5px ridge white;
+  border-radius: 310px;
+}
+
+.pad {
+  width: 300px;
+  height: 300px;
+  float: left;
+  z-index: 1;
+  margin: 10px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+}
+
+.shape1 {
+  border-top-left-radius: 300px;
+  background-color: green;
+  border:2.5px groove white;
+  
+}
+
+.shape2 {
+  float: left;
+  border-top-right-radius: 300px;
+  background-color: red;
+  clear: right;
+  border:2.5px groove white;
+  position: relative;
+}
+
+.shape3 {
+  float: left;
+  border-bottom-left-radius: 300px;
+  background-color: yellow;
+  clear: left;
+  border:2.5px groove white;
+}
+
+.shape4 {
+  float: left;
+  border-bottom-right-radius: 300px;
+  background-color: blue;
+  border:2.5px groove white;
+}
+
+.Timer {
+  position: absolute;
+  top: 195px;
+  left: 195px;
+  width: 250px;
+  height: 250px;
+  background: #000;
+  border-radius: 125px;
+  border:2.5px solid White;
+  z-index: 10;
+  color:white;
+}
+
+.TextBox{
+  position: absolute;
+  width: 200px;
+  height:52.5px;
+  margin-left: 60%;
+  margin-top:400px;
+  border: 3.5px groove #8E2B2B;
+  border-radius: 15px;
+  text-align:center;
+  
+}
+
+.level, .score {
+  text-align: center;
+}
+
+.start {
+   border-top: 1px solid #f79797;
+   background: #d66565;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9c3e3e), to(#d66565));
+   background: -webkit-linear-gradient(top, #9c3e3e, #d66565);
+   background: -moz-linear-gradient(top, #9c3e3e, #d66565);
+   background: -ms-linear-gradient(top, #9c3e3e, #d66565);
+   background: -o-linear-gradient(top, #9c3e3e, #d66565);
+   padding: 5.5px 11px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 14px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.start:hover {
+   border-top-color: #2c7828;
+   background: #2c7828;
+   color: #ccc;
+   }
+.start:active {
+   border-top-color: #1b5c24;
+   background: #1b5c24;
+   }
+
